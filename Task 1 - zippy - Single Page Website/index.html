@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap minified css  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+    <!-- Custom responsive CSS  -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+    <!-- font awesome stylehseet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <title>Zippy - Yaspal Singh</title>
+
+</head>
+
+<body oncontextmenu="return false;">
+
+    <!-- responsive nabar with hamburger menu  -->
+    <nav class="navbar navbar-expand-md fixed-top nav-pad">
+        <div class="container">
+            <!-- Brand name -->
+            <a class="navbar-brand" href="#">ZIPPY</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar"
+                aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fas fa-bars"
+                        style="color: #fff; font-size: 24px"></i></span>
+            </button>
+            <div class="collapse navbar-collapse black" id="myNavbar">
+                <!-- menu bar items list  -->
+                <ul class="navbar-nav ms-auto justify-content-end">
+                    <li class="nav-item"><a href="#" class="nav-link white-text"><i class="fas fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item"><a href="#projects" class="nav-link white-text"><i
+                                class="fab fa-product-hunt"></i> PROJECTS</a></li>
+                    <li class="nav-item"><a href="#pricing" class="nav-link white-text"><i
+                                class="fas fa-hand-holding-usd"></i> PRICING</a></li>
+                    <li class="nav-item"><a href="#team" class="nav-link white-text"><i class="fas fa-users"></i>
+                            TEAM</a></li>
+                    <li class="nav-item"><a href="#blog" class="nav-link white-text"><i class="fas fa-file-alt"></i>
+                            BLOG</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link white-text"><i class="fas fa-phone-alt"></i>
+                            CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner images  -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active circ"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"
+                class="circ"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"
+                class="circ"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"
+                class="circ"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="image/1.jpg" class="d-block w-100 img-size" alt="...">
+                <div class="carousel-caption banner-text">
+                    <h1>
+                        One page promising to fill all your needs!
+                    </h1>
+                    <h6 class="second-text">
+                        This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                    </h6>
+                    <p>
+                        <a href="#projects" class="btn btn-warning btn-change">LEARN MORE</a>
+                        <a href="#v-projects" class="btn btn-warning btn-change">START NOW!</a>
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="image/2.jpg" class="d-block w-100 img-size" alt="...">
+                <div class="carousel-caption banner-text">
+                    <h1>
+                        One page promising to fill all your needs!
+                    </h1>
+                    <h6 class="second-text">
+                        This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                    </h6>
+                    <p>
+                        <a href="#projects" class="btn btn-warning btn-change">LEARN MORE</a>
+                        <a href="#v-projects" class="btn btn-warning btn-change">START NOW!</a>
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="image/3.jpg" class="d-block w-100 img-size" alt="...">
+                <div class="carousel-caption banner-text">
+                    <h1>
+                        One page promising to fill all your needs!
+                    </h1>
+                    <h6 class="second-text">
+                        This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                    </h6>
+                    <p>
+                        <a href="#projects" class="btn btn-warning btn-change">LEARN MORE</a>
+                        <a href="#v-projects" class="btn btn-warning btn-change">START NOW!</a>
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="image/4.jpg" class="d-block w-100 img-size" alt="...">
+                <div class="carousel-caption banner-text">
+                    <h1>
+                        One page promising to fill all your needs!
+                    </h1>
+                    <h6 class="second-text">
+                        This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                    </h6>
+                    <p>
+                        <a href="#projects" class="btn btn-warning btn-change">LEARN MORE</a>
+                        <a href="#v-projects" class="btn btn-warning btn-change">START NOW!</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- First section  -->
+    <div class="container section-1">
+        <h1 class="text-center">Welcome to Zippy</h1>
+        <div class="row">
+            <div class="col-md-8">
+                <p class="txt">This is Photoshop's version of Lorem Ipsum. Proin gravida nibhvel velit auctor aliquet.
+                    Aenean
+                    sol-licitudin, lorem quis bibendum auctor.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="image/umbrella.jpg" alt="" class="img-responsive umbr">
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-sm-4 sm-pd">
+                <i class="far fa-bell icons bell-icon"></i>
+                <h5 class="text-purple">LOREM IPSUM</h5>
+                <p class="s1-pd">Lorem ipsum dolor sit<br> amet consectetur adipi-<br>sicing elit. Dolorum culpa<br>
+                    architecto enim hic ut<br>dicta quo voluptate.
+                </p>
+                <a href="#" class="btn btn-warning btn-change">LEARN MORE</a>
+            </div>
+            <div class="col-sm-4 sm-pd">
+                <i class="far fa-envelope icons"></i>
+                <h5 class="text-purple">DOLOR SIT</h5>
+                <p class="s1-pd">Lorem ipsum dolor sit<br> amet consectetur adipi-<br>sicing elit. Dolorum culpa<br>
+                    architecto enim hic ut<br>dicta quo voluptate.
+                </p>
+                <a href="#" class="btn btn-warning btn-change">LEARN MORE</a>
+            </div>
+            <div class="col-sm-4">
+                <i class="fas fa-clipboard-list icons"></i>
+                <h5 class="text-purple">CONSECTETUR</h5>
+                <p class="s1-pd">Lorem ipsum dolor sit<br> amet consectetur adipi-<br>sicing elit. Dolorum culpa<br>
+                    architecto enim hic ut<br>dicta quo voluptate.
+                </p>
+                <a href="#" class="btn btn-warning btn-change">LEARN MORE</a>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <!-- Projects section  -->
+    <section id="projects">
+        <div class="container-fluid">
+            <h1 class="text-center">Projects</h1>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 remove-default-padding hover-effect">
+                    <img src="image/project1.jpg" alt="" class="project-image">
+                    <div class="content1">
+                        <h4>PROJECT NAME</h4>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eaque id laboriosam obcaecati,
+                            vitae accusantium.</P>
+                        <a href="#projects" class="btn btn-light btn-change">SEE DEMO</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 remove-default-padding hover-effect">
+                    <img src="image/project2.jpg" alt="" class="project-image">
+                    <div class="content">
+                        <h4>PROJECT NAME</h4>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eaque id laboriosam obcaecati,
+                            vitae accusantium.</P>
+                        <a href="#projects" class="btn btn-light btn-change">SEE DEMO</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 remove-default-padding hover-effect">
+                    <img src="image/project3.jpg" alt="" class="project-image">
+                    <div class="content1">
+                        <h4>PROJECT NAME</h4>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eaque id laboriosam obcaecati,
+                            vitae accusantium.</P>
+                        <a href="#projects" class="btn btn-light btn-change">SEE DEMO</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 remove-default-padding hover-effect">
+                    <img src="image/project4.jpg" alt="" class="project-image">
+                    <div class="content">
+                        <h4>PROJECT NAME</h4>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eaque id laboriosam obcaecati,
+                            vitae accusantium.</P>
+                        <a href="#projects" class="btn btn-light btn-change">SEE DEMO</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing section  -->
+    <section id="pricing" class="price-section">
+        <div class="container text-center">
+            <h1>Pricing Table</h1>
+            <div class="row">
+                <div class="col-sm-4 right-border sm-pd">
+                    <h5 class="price-heading">STANDARD PLAN</h5>
+                    <p class="light-font">Free</p>
+                    <p>2 GB Available</p>
+                    <p>15 max contacts</p>
+                    <p>30 Messages/Month</p>
+                    <p>Lorem, ipsum</p>
+                    <a href="#pricing" class="btn btn-warning btn-change">BUY</a>
+                </div>
+                <div class="col-sm-4 right-border sm-pd">
+                    <h5 class="price-heading">BUSINESS PLAN</h5>
+                    <p class="light-font">19$/MONTH</p>
+                    <p>10 GB Available</p>
+                    <p>15 max contacts</p>
+                    <p>120 Messages/Month</p>
+                    <p>Ads Free</p>
+                    <a href="#pricing" class="btn btn-warning btn-change">BUY</a>
+                </div>
+                <div class="col-sm-4">
+                    <h5 class="price-heading">PREMIUM PLAN</h5>
+                    <p class="light-font">14$/MONTH</p>
+                    <p>100 GB Available</p>
+                    <p>15 max contacts</p>
+                    <p>Unlimited Messages/Month</p>
+                    <p>Ads Free</p>
+                    <a href="#pricing" class="btn btn-warning btn-change">BUY</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video projects  -->
+    <section id="v-projects" class="video-projects">
+        <h1 class="text-center">Video Projects</h1>
+        <div class="carousel-video" data-flickity='{ "wrapAround": true }'>
+            <div class="carousel-cell">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/uXhjPH5XSk4"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="carousel-cell">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/dtSiwnMsg2s"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="carousel-cell" active>
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/cI4ryatVkKw"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="carousel-cell">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ayWd44asH4U"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="carousel-cell">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1EeZt8uwW_o"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team section  -->
+    <section id="team" class="team-section container">
+        <h1 class="text-center">Zippy Team</h1>
+        <div class="members">
+            <!-- First member row -->
+            <div class="row">
+                <!-- First member  -->
+                <div class="col-sm-4 pb">
+                    <div class="card">
+                        <div class="img-social">
+                            <div class="social-adjust">
+                                <img src="image/Team/fb.png" alt="" class="social-handles">
+                                <img src="image/Team/twitter.png" alt="" class="social-handles">
+                                <img src="image/Team/google+.png" alt="" class="social-handles">
+                            </div>
+                            <img src="image/Team/team1.jpg" class="card-img-top img-circle" alt="...">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title text-center">SARA JOHNSON</h6>
+                        <p class="card-text text-muted text-center">Creative Head</p>
+                    </div>
+                </div>
+                <!-- Second member  -->
+                <div class="col-sm-4 pb">
+                    <div class="card">
+                        <div class="img-social">
+                            <div class="social-adjust">
+                                <img src="image/Team/fb.png" alt="" class="social-handles">
+                                <img src="image/Team/twitter.png" alt="" class="social-handles">
+                                <img src="image/Team/google+.png" alt="" class="social-handles">
+                            </div>
+                            <img src="image/Team/team2.jpg" class="card-img-top img-circle" alt="...">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title text-center">MATT ALEX</h6>
+                        <p class="card-text text-muted text-center">Art Director</p>
+                    </div>
+                </div>
+                <!-- Third member  -->
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="img-social">
+                            <div class="social-adjust">
+                                <img src="image/Team/fb.png" alt="" class="social-handles">
+                                <img src="image/Team/twitter.png" alt="" class="social-handles">
+                                <img src="image/Team/google+.png" alt="" class="social-handles">
+                            </div>
+                            <img src="image/Team/team3.jpg" class="card-img-top img-circle" alt="...">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title text-center">CHRIS PHILIPS</h6>
+                        <p class="card-text text-muted text-center">Senior Designer</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Second member row -->
+            <div class="row">
+                <!-- 4th member  -->
+                <div class="col-sm-4 pb">
+                    <div class="card">
+                        <div class="img-social">
+                            <div class="social-adjust">
+                                <img src="image/Team/fb.png" alt="" class="social-handles">
+                                <img src="image/Team/twitter.png" alt="" class="social-handles">
+                                <img src="image/Team/google+.png" alt="" class="social-handles">
+                            </div>
+                            <img src="image/Team/team4.jpg" class="card-img-top img-circle" alt="...">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title text-center">JIMY SMITH</h6>
+                        <p class="card-text text-muted text-center">Marketing Manager</p>
+                    </div>
+                </div>
+                <!-- 5th member  -->
+                <div class="col-sm-4 pb">
+                    <div class="card">
+                        <div class="img-social">
+                            <div class="social-adjust">
+                                <img src="image/Team/fb.png" alt="" class="social-handles">
+                                <img src="image/Team/twitter.png" alt="" class="social-handles">
+                                <img src="image/Team/google+.png" alt="" class="social-handles">
+                            </div>
+                            <img src="image/Team/team5.jpg" class="card-img-top img-circle" alt="...">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title text-center">ALIZA</h6>
+                        <p class="card-text text-muted text-center">SEO Monster</p>
+                    </div>
+                </div>
+                <!-- 6th member  -->
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="img-social">
+                            <div class="social-adjust">
+                                <img src="image/Team/fb.png" alt="" class="social-handles">
+                                <img src="image/Team/twitter.png" alt="" class="social-handles">
+                                <img src="image/Team/google+.png" alt="" class="social-handles">
+                            </div>
+                            <img src="image/Team/team6.jpg" class="card-img-top img-circle" alt="...">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title text-center">CELEIN JOHN</h6>
+                        <p class="card-text text-muted text-center">Senior Designer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Life in Zippy  -->
+    <section id="life" class="life-section text-center container-fluid">
+        <h1>Life in Zippy</h1>
+        <div class="resp-life">
+            <!-- Top image  -->
+            <img id="show-images" class="show-top" src="image/Life/life1.jpg">
+            <!-- Image slider  -->
+            <div class="img-slides">
+                <!-- Left arrow  -->
+                <div class="arrow">
+                    <i class="fas fa-angle-left" id="leftArrow"></i>
+                </div>
+                <div id="move">
+                    <img class="pictures active" src="image/Life/life1.jpg">
+                    <img class="pictures" src="image/Life/life2.jpg">
+                    <img class="pictures" src="image/Life/life3.jpg">
+                    <img class="pictures" src="image/Life/life4.jpg">
+                    <img class="pictures" src="image/Life/life5.jpg">
+                    <img class="pictures" src="image/blog1.jpg">
+                    <img class="pictures" src="image/blog2.jpg">
+                    <img class="pictures" src="image/blog3.jpg">
+                </div>
+                <!-- Right arrow  -->
+                <div class="arrow">
+                    <i class="fas fa-angle-right" id="rightArrow"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter  -->
+    <section id="newsletter">
+        <h1 class="text-center">Newsletter Signup</h1>
+        <form action="">
+            <div class="form-group input-group">
+                <input type="email" class="form-control form-group" placeholder="abc@example.com">
+                <button type="button" class="btn btn-warning btn-lg bt">SIGN UP</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Blog section  -->
+    <section id="blog" class="blog-section">
+        <div class="container">
+            <h1 class="text-center">Blog</h1>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="image/blog1.jpg" class="card-img-top blog-img" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center blog-head">LOREM IPSUM DOLOR<br> SIT AMET</h5>
+                            <p class="text-muted text-center">15 Jan, 2015</p>
+                            <p class="card-text text-center blog-meta">Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit.
+                                Perferendis aperiam odit, at natus possimus laudantium!</p>
+                            <div class="block-btn">
+                                <a href="#blog" class="btn btn-light btn-center blog-btn"><small>READ MORE</small></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="image/blog2.jpg" class="card-img-top blog-img" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center blog-head">LOREM IPSUM DOLOR<br> SIT AMET</h5>
+                            <p class="text-muted text-center">15 Jan, 2015</p>
+                            <p class="card-text text-center blog-meta">Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit.
+                                Perferendis aperiam odit, at natus possimus laudantium!</p>
+                            <div class="block-btn">
+                                <a href="#blog" class="btn btn-light btn-center blog-btn"><small>READ MORE</small></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="image/blog3.jpg" class="card-img-top blog-img" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center blog-head">LOREM IPSUM DOLOR<br> SIT AMET</h5>
+                            <p class="text-muted text-center">15 Jan, 2015</p>
+                            <p class="card-text text-center blog-meta">Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit.
+                                Perferendis aperiam odit, at natus possimus laudantium!</p>
+                            <div class="block-btn">
+                                <a href="#blog" class="btn btn-light btn-center blog-btn"><small>READ MORE</small></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section  -->
+    <section id="contact" class="contact-section">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Column for Map  -->
+                <div class="col-sm-6 map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28076.452673109907!2d76.46409048505225!3d28.402457830567005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d6043f56231b1%3A0xee371d5594ad4b0e!2sKosli%2C%20Haryana!5e0!3m2!1sen!2sin!4v1627550749765!5m2!1sen!2sin"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <!-- Contact column  -->
+                <div class="col-sm-6 contact-details">
+                    <div class="f-form">
+                        <h1>Contact</h1>
+                        <form class="c-form">
+                            <div class="mb-3">
+                                <label class="form-label">NAME</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">EMAIL ADDRESS</label>
+                                <input type="email" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">SUBJECT</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">MESSAGE</label>
+                                <textarea name="message" class="form-control" cols="20" rows="6"></textarea>
+                            </div>
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-voilet">SEND</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section  -->
+    <section id="footer" class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 text-center">
+                    <h5>OFFICE ADDRESS</h5>
+                    <p>Lorem Ipsum dolor, 234<br>1200 consectetur<br>Adipisicing</p>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <h5>FOLLOW US</h5>
+                    <span><a href="#footer"><i class="fab fa-behance social"></i></a></span>
+                    <span><a href="#footer"><i class="fab fa-twitter social"></i></a></span>
+                    <span><a href="https://www.linkedin.com/in/yaspal-singh-115trig115/" target="_blank"> <i
+                                class="fab fa-linkedin-in social"></i></a></span><br>
+                    <span><a href="mailto:yaspalharyana@gmail.com" target="_blank"> <i
+                                class="fab fa-google-plus social"></i></a></span>
+                    <span><a href="https://github.com/yaspalsingh115" target="_blank"> <i
+                                class="fab fa-github social"></i></a></span>
+                    <span><a href="https://www.instagram.com/yashpalsingh115/" target="_blank"> <i
+                                class="fab fa-instagram social"></i></a></span>
+                </div>
+                <div class="col-sm-4 text-center last">
+                    <h5>CONTACT US</h5>
+                    <p>+ 123 456 789<br>zippyhelp@gmail.com<br>enquiry@zippy.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Credit  -->
+    <div class="text-center claim">
+        Copyright &copy; 2021 | All Rights Reserved | Made by <span class="y">YASPAL SINGH</span>
+    </div>
+
+    <!-- Custom JavaScript  -->
+    <script src="Js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    
+    <!-- Flickity JS  -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

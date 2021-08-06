@@ -1,0 +1,552 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/* NAVBAR style  */
+
+.nav-pad {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: transparent;
+    z-index: 1000;
+    -webkit-transition: all ease-out .5s;
+    -moz-transition: all ease-out .5s;
+    -o-transition: all ease-out .5s;
+    transition: all ease-out .5s;
+}
+
+.white-text {
+    color: white;
+}
+
+ul li:hover {
+    background-color: #757774a4;
+    border-radius: 4px;
+}
+
+.nav-pad .navbar-nav>li>a {
+    color: white;
+}
+
+.nav-pad .navbar-nav li {
+    padding: 5px 10px;
+}
+
+.navbar .navbar-brand {
+    color: white;
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+/* --- change navbar on scrolling page --> implementation done through JavaScript --- */
+
+.nav-active {
+    background-color: black !important;
+}
+
+/* NAVBAR STYLE end here  */
+
+/* BANNER IMAGES style  */
+
+.img-size {
+    height: 800px;
+    width: 100%;
+}
+
+.carousel {
+    margin-top: -68px;
+}
+
+/* ----- change banner image using circles ----- */
+
+.circ {
+    border-radius: 50%;
+    height: 10px !important;
+    width: 10px !important;
+}
+
+/* ----- banner text ----- */
+
+.banner-text {
+    max-width: 450px;
+    height: 800px;
+    margin: auto 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 0%;
+    padding-left: 10px;
+    padding-top: 50px;
+}
+
+.second-text {
+    color: rgb(226, 222, 222);
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.second-text:hover {
+    color: #fff;
+}
+
+.btn-change {
+    border-radius: 3px;
+    border: none;
+    margin-right: 4px;
+    margin-top: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.btn-change:hover {
+    color: #fff;
+    background-color: #723a72 !important;
+    border: none;
+}
+
+/* BANNER IMAGES style end here  */
+
+/* FIRST SECTION  */
+
+.section-1 {
+    margin-top: 60px;
+}
+
+.section-1 .text-center {
+    padding-bottom: 30px;
+}
+
+.section-1 .row {
+    padding-bottom: 50px;
+}
+
+.txt {
+    font-size: 28px;
+    color: rgb(145, 140, 140);
+}
+
+/* ----- padding for section 1 ----- */
+
+.s1-pd {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(145, 140, 140);
+}
+
+.text-purple {
+    color: #723a72;
+}
+
+/* ----- icons in section 1 ----- */
+
+.icons {
+    /* size: 3x; */
+    border-radius: 50%;
+    background-color: #723a72;
+    padding: 20px;
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.bell-icon {
+    transform: rotate(30deg);
+}
+
+/* FIRST SECTION ends here  */
+
+/* PROJECT STYLE  */
+
+#projects .text-center {
+    padding-top: 30px;
+}
+
+/* ----- to collapse all the images in project section ----- */
+
+.remove-default-padding {
+    padding: 3% 0;
+}
+
+.content {
+    background-color: rgba(226, 220, 216, 0.808);
+    padding: 30px 40px;
+}
+
+.content1 {
+    background-color: rgba(238, 235, 232, 0.808);
+    padding: 30px 40px;
+}
+
+.hover-effect:hover .content1, .hover-effect:hover .content {
+    background-color: rgb(255, 221, 109) !important;
+}
+
+.content p {
+    color: rgba(83, 80, 80, 0.76)
+}
+
+.content1 p {
+    color: rgba(83, 80, 80, 0.76)
+}
+
+.project-image {
+    width: 100%;
+    height: 400px;
+}
+
+/* PROJECT STYLE ends here  */
+
+/* PRICING TABLE style  */
+
+.price-section {
+    margin-top: 80px;
+}
+
+.price-section h1 {
+    padding-bottom: 30px;
+}
+
+.right-border {
+    border-right: 2px solid rgb(160 154 154 / 46%);
+}
+
+.price-heading {
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.light-font {
+    color: rgb(145, 140, 140);
+}
+
+/* PRICING TABLE style ends here  */
+
+/* VIDEO PROJECTS style  */
+
+.video-projects {
+    margin-top: 70px;
+    background-color: #723a72;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.video-projects h1 {
+    padding-bottom: 20px;
+}
+
+.carousel-video {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.carousel-cell {
+    width: 45%;
+    height: 400px;
+    margin-right: 30px;
+    border-radius: 5px;
+}
+
+.carousel-cell::before {
+    display: block;
+    text-align: center;
+    line-height: 400px;
+    font-size: 80px;
+}
+
+.video-adjust {
+    width: 100%;
+    height: 100%;
+}
+
+/* VIDEO PROJECTS style ends here  */
+
+/* TEAM SECTION style  */
+
+.team-section {
+    margin-top: 50px !important;
+}
+
+.members {
+    margin-top: 60px;
+}
+
+.img-social {
+    background-color: #5e0769;
+    border-radius: 100%;
+    max-height: 150px;
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+.img-circle {
+    border-radius: 100%;
+    max-height: 150px;
+    max-width: 150px;
+    margin: auto;
+    position: relative;
+    top: -27px;
+}
+
+.img-circle:hover {
+    opacity: 0.4;
+}
+
+.social-handles {
+    height: 25px;
+    padding: 2%;
+    width: auto;
+    position: relative;
+    top: 60px;
+    cursor: pointer;
+}
+
+.img-social:hover .social-handles {
+    display: inline;
+    z-index: 100;
+}
+
+.social-adjust {
+    display: block;
+    margin: auto;
+    padding-left: 30px;
+}
+
+.card {
+    border: none;
+}
+
+.team-section .row {
+    padding-bottom: 30px;
+}
+
+/* TEAM SECTION style end here  */
+
+/* LIFE IN ZIPPY style  */
+
+.life-section {
+    margin-top: 50px;
+    background-color: rgb(230, 227, 227);
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+#life h1 {
+    padding-bottom: 30px;
+}
+
+.resp-life {
+    max-width: 720px;
+    display: block;
+    margin: auto;
+}
+
+.show-top {
+    cursor: pointer;
+    width: 100%;
+    height: 30rem !important;
+    padding: 20px 10px;
+}
+
+.img-slides {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#move {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+#move::-webkit-scrollbar {
+    display: none;
+}
+
+.pictures {
+    cursor: pointer;
+    width: 120px;
+    height: 100px;
+    opacity: 0.8;
+    margin: 5px;
+}
+
+.pictures:hover {
+    opacity: 1;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 00%;
+    height: 100px;
+    padding: 0 10px;
+    font-size: 26px;
+    background-color: black;
+    color: white;
+}
+
+.arrow:hover {
+    background-color: #723a72;
+}
+
+/* LIFE IN ZIPPY style ends here  */
+
+/* NEWSLETTER style  */
+
+#newsletter {
+    background-image: url('../image/bridge.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+#newsletter .text-center {
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.form-group {
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+.bt {
+    padding: 10px 30px;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.bt:hover {
+    color: #fff;
+    background-color: #723a72;
+    border: none;
+}
+
+/* NEWSLETTER style ends here  */
+
+/* BLOG section  */
+
+.blog-section {
+    padding-top: 70px;
+}
+
+.blog-section .text-center {
+    padding-bottom: 20px;
+}
+
+.blog-section .col-sm-4 {
+    margin-top: 30px;
+}
+
+.blog-section .col-sm-4 img {
+    border-radius: 0%;
+}
+
+.blog-img {
+    height: 180px;
+}
+
+.blog-head {
+    padding-top: 15px;
+    margin-bottom: -10px;
+}
+
+.blog-meta {
+    margin-top: -20px;
+}
+
+.blog-btn {
+    background-color: rgb(230, 227, 227);
+    padding: 8px 25px;
+    margin: auto;
+    font-weight: bold;
+}
+
+.blog-btn:hover {
+    background-color: rgb(255, 221, 109);
+}
+
+.block-btn {
+    display: flex;
+}
+
+/* BLOG style ends here  */
+
+/* CONTACT section  */
+
+.contact-section {
+    margin-top: 70px;
+    background-color: rgb(255, 221, 109);
+}
+
+.contact-section .container-fluid {
+    padding-left: 0;
+}
+
+.contact-section .contact-details {
+    padding-left: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact-section .f-form {
+    max-width: 60%;
+}
+
+.c-form {
+    margin-top: 25px;
+}
+
+.btn-voilet {
+    background-color: #723a72;
+    border: none;
+    color: #fff;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+/* CONTACT style ends here  */
+
+/* FOOTER section  */
+
+.footer-section {
+    margin-top: 60px !important;
+}
+
+span .social {
+    font-size: 25px;
+    padding: 6px 8px;
+}
+
+/* FOOTER style ends here  */
+
+/* CREDIT  */
+.claim{
+    padding: 20px;
+}
+.claim:hover{
+    background-color: black;
+    color: #fff;
+}
+.claim:hover .y{
+    color: yellow;
+}

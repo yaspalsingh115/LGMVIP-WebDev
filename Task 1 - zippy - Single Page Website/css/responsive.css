@@ -1,0 +1,190 @@
+/* All Responsive styling  */
+
+@media (min-width: 1200px) {
+    /* NAVBAR  */
+    .navbar .navbar-brand {
+        margin-left: 50px;
+    }
+    .nav-pad .container {
+        max-width: 75vw;
+        margin: auto;
+    }
+    /* FIRST SECTION  */
+    .section-1 {
+        max-width: 70vw;
+    }
+    /* PRICING  */
+    #pricing {
+        max-width: 70vw;
+        margin: auto;
+    }
+    /* TEAM  */
+    #team {
+        max-width: 70vw;
+        margin: auto;
+        padding: 0 10%;
+    }
+    /* BLOG  */
+    #blog {
+        max-width: 60vw;
+        margin: auto;
+    }
+    /* FOOTER  */
+    #footer {
+        max-width: 60vw;
+        margin: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    /* NAVBAR  */
+    .navbar-expand-md .navbar-nav {
+        margin-right: -30px;
+    }
+    .navbar-expand-md .navbar-collapse {
+        margin-right: 60px;
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 0.3rem;
+        padding-left: 0.3rem;
+    }
+    /* FIRST SECTION  */
+    .umbr {
+        width: 60%;
+    }
+    /* TEAM  */
+    #team {
+        max-width: 85vw;
+        margin: auto;
+        padding: 0 10%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    /* NAVBAR  */
+    .navbar-expand-md .navbar-collapse {
+        margin-right: 20px;
+    }
+    .nav-pad .navbar-nav li {
+        padding: 5px 8px;
+    }
+}
+
+@media (max-width: 767px) {
+    .black {
+        background-color: black;
+    }
+    .form-group {
+        width: 70%;
+    }
+}
+@media (max-width: 715px) {
+    /* TEAM  */
+    .resp-life{
+        max-width: 650px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 32px;
+    }
+    /* HEADER  */
+    .nav-pad {
+        max-width: 100vw;
+    }
+    /* FIRST SECTION  */
+    .section-1 {
+        width: 90% !important;
+        text-align: center !important;
+    }
+    .section-1 .txt {
+        padding-bottom: 18px;
+        font-size: 24px;
+    }
+    .umbr {
+        width: 40%;
+    }
+    .section-1 .sm-pd {
+        padding-bottom: 40px;
+    }
+    /* PROJECTS */
+    #projects h1 {
+        padding-bottom: 20px;
+    }
+    #projects {
+        text-align: center;
+    }
+    #projects .project-image {
+        height: 300px;
+    }
+    .remove-default-padding{
+        padding-right: 10px;
+        padding-left: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    #projects .content, #projects .content1 {
+        background-color: #fff;
+    }
+    #projects .btn-change {
+        background-color: rgba(233, 230, 230, 0.904);
+    }
+    /* PRICING */
+    .price-section {
+        margin-top: 50px;
+    }
+    #pricing h1 {
+        padding-bottom: 40px;
+    }
+    .price-section .sm-pd {
+        padding-bottom: 40px;
+    }
+    .price-section .right-border {
+        border-right: none;
+    }
+    .carousel-cell {
+        width: 90%;
+        height: 300px;
+    }
+    .flickity-slider {
+        width: 90%;
+    }
+    /* TEAM  */
+    #team .pb {
+        padding-bottom: 20px;
+    }
+    /* LIFE IN ZIPPY  */
+    #life .show-top{
+        height: 20rem !important;
+    }
+    /* NEWSLETTER */
+    #newsletter .form-group {
+        width: 80%;
+        border-radius: 4px;
+    }
+    #newsletter .bt {
+        border-radius: 4px;
+        margin: 20px auto 0px;
+    }
+    /* CONTACT  */
+    .contact-section .f-form {
+        max-width: 90%;
+    }
+    .contact-section .row {
+        margin: auto;
+        padding-top: 20px;
+    }
+    .contact-section .map {
+        height: 250px;
+    }
+    /* FOOTER  */
+    #footer .col-sm-4 {
+        padding-bottom: 20px;
+    }
+    #footer .last {
+        padding-top: 10px;
+    }
+    #footer h5 {
+        padding-bottom: 10px;
+    }
+}
